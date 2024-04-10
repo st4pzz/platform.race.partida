@@ -23,7 +23,7 @@ public interface PartidaController {
         @RequestBody(required = true) PartidaIn in
     );
 
-    @GetMapping("/inscricoes")
+    @GetMapping("/partida")
     public ResponseEntity<PartidaOut> read(
         @RequestHeader(required = true, name = "id-Partida") String idPartida
     );
