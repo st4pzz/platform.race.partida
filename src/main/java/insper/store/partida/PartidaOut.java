@@ -9,7 +9,9 @@ public record PartidaOut (
     String id,
     String time1,
     String time2,
-    String id_jogador
+    String data,
+    String local,
+    String campeonato
 ) {
     
 }
