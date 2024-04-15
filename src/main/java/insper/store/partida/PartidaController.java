@@ -25,7 +25,7 @@ public interface PartidaController {
 
     @GetMapping("/partida")
     public ResponseEntity<PartidaOut> read(
-        @RequestHeader(required = true, name = "id-Partida") String idPartida
+        @RequestHeader(required = true, name = "id-partida") String idPartida
     );
     
 }
