@@ -18,20 +18,19 @@ A arquitetura do projeto utiliza uma abordagem de microserviços, onde cada comp
 ## Estrutura do Projeto
 
 ```
-platform.race.partida/
+partida/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── partida/
-│   │   │               ├── controller/
-│   │   │               ├── model/
-│   │   │               ├── repository/
-│   │   │               └── service/
+│   │      └── insper/
+│   │          └── store/
+│   │              └── partida/
+│   │                  ├── PartidaController/
+│   │                  ├── PartidaIn/
+│   │                  └── PartidaOut/
 │   └── resources/
+├── .gitignore
 ├── Jenkinsfile
-├── docker-compose.yml
 ├── README.md
 └── pom.xml
 ```
